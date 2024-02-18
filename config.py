@@ -1,9 +1,11 @@
 class Config:
     n = 30
     point_size = 15
+    center_size = 20
     border_size = 1
-    fill_colors = []#'red', 'green', 'blue', 'yellow']
+    fill_colors = []
     outline_color = ['black']*n
+    center_outline_color = 'white'
     def __init__(self):
        self.random()
        
