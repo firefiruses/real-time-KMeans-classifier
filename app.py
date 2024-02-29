@@ -204,8 +204,8 @@ class App():
 
     def draw(self, with_background = False):
         self.canv.delete('all')
-        if with_background:
-                    self.draw_background()
-        self.draw_centers()
+        #if with_background:
+        #            self.draw_background()
+        #self.draw_centers()
         self.draw_points()
         
